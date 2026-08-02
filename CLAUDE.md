@@ -29,7 +29,9 @@ E:\AI agents\
   p3-memory-agent/             ← Project 3 (RAG + vector memory)
   p4-production-backend/       ← Project 4 (REST API + safety + observability)
   p5-multi-agent/              ← Project 5 (Orchestrator + specialist agents)
-  p6-saas-capstone/            ← Project 6 (Monetizable SaaS — use case TBD)
+  p6-saas-capstone/            ← Project 6 (Monetizable SaaS — "Lexor", in discovery)
+  p7-advanced-modules/         ← Project 7 (Advanced curriculum, M01–M22, see AI-Engineering-Advanced-Mastery-Plan.md)
+  p8-propertyops-trust-desk/   ← Project 8 (Applied capstone — PropertyOps Trust Desk, see its PLAN.md)
 ```
 
 ## Current Status
@@ -40,7 +42,9 @@ E:\AI agents\
 - [x] Project 3 — Memory Agent
 - [ ] Project 4 — Production Backend ← **next**
 - [ ] Project 5 — Multi-Agent Orchestrator
-- [ ] Project 6 — SaaS Capstone
+- [ ] Project 6 — SaaS Capstone (discovery stage, product "Lexor")
+- [ ] Project 7 — Advanced Modules (M01–M22, README stubs only, not started)
+- [ ] Project 8 — PropertyOps Trust Desk (applied capstone, draws on P7 M01–M22)
 
 ## Stack
 
