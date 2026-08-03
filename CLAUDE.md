@@ -19,6 +19,29 @@ Angular/.NET developer learning AI agents from scratch in TypeScript. Goals: get
 
 This is the most important instruction in this file. He learns by doing AND understanding, not by blindly following steps.
 
+## Learnings Files — REQUIRED before moving to the next module/project
+
+Every project (P1–P8) and every P7 module (M01–M22) gets a `notes/<id>-learnings.md`
+file (e.g. `notes/p1-learnings.md`, `notes/m01-learnings.md`) written up
+**after** the work is functionally complete, before starting the next
+project/module. Follow the existing files in `notes/` as the template. Each
+one covers:
+
+- **What We Built** — one or two sentences
+- **Setup Commands** — the exact commands run, in order
+- **Key Files** — folder tree with a one-line purpose per file
+- **Concepts Learned** — the real explanations, not just definitions; include
+  anything Abhiraj got wrong on the first pass and the corrected understanding
+- **Bugs We Hit & Why** — table of bug → root cause → fix (only real bugs hit
+  during the build, not hypothetical ones)
+- **Explain-It-Back** section if the module has explicit self-check questions —
+  capture where his answers were off and what the corrected version is
+- **Status + Next Up** — what's complete, what the next project/module builds on
+
+Do not start scaffolding the next project/module until its predecessor's
+learnings file exists. This is the module's actual completion gate, not just
+the code running.
+
 ## Project Structure
 
 ```
@@ -43,7 +66,7 @@ E:\AI agents\
 - [ ] Project 4 — Production Backend ← **next**
 - [ ] Project 5 — Multi-Agent Orchestrator
 - [ ] Project 6 — SaaS Capstone (discovery stage, product "Lexor")
-- [ ] Project 7 — Advanced Modules (M01–M22, README stubs only, not started)
+- [ ] Project 7 — Advanced Modules (M01–M22; M01, M02 complete, M03 ← **next**)
 - [ ] Project 8 — PropertyOps Trust Desk (applied capstone, draws on P7 M01–M22)
 
 ## Stack

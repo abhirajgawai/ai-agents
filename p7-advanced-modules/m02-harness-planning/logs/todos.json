@@ -1,0 +1,17 @@
+[
+  {
+    "id": "1",
+    "text": "Research and draft an article on: pick any topic you want researched and written about",
+    "status": "done"
+  },
+  {
+    "id": "2",
+    "text": "Review draft quality and revise if needed",
+    "status": "done"
+  },
+  {
+    "id": "3",
+    "text": "Return final summary to caller",
+    "status": "done"
+  }
+]

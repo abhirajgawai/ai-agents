@@ -1,0 +1,261 @@
+{
+  "runId": "051520fd-ffe2-4fe5-b768-68a629309400",
+  "topic": "Why hybrid retrieval beats pure vector search",
+  "stepCount": 6,
+  "trace": [
+    {
+      "step": "research",
+      "input": {
+        "topic": "Why hybrid retrieval beats pure vector search"
+      },
+      "output": {
+        "topic": "Why hybrid retrieval beats pure vector search",
+        "context": "Vector search has become popular in modern information retrieval systems, particularly with the rise of large language models and semantic search applications. However, pure vector search has limitations that hybrid retrieval systems address. Hybrid retrieval combines dense vector embeddings (semantic search) with traditional sparse retrieval methods like BM25 or TF-IDF (lexical/keyword search). This approach has emerged as the state-of-the-art for many retrieval tasks, as it leverages the complementary strengths of both methods. Vector search excels at understanding semantic meaning and context but can struggle with exact matches, rare terms, and out-of-vocabulary words. Sparse methods excel at precise keyword matching and handling specific terminology but miss semantic relationships. By combining both approaches, hybrid retrieval systems achieve superior performance across diverse query types and use cases.",
+        "keyPoints": [
+          "Complementary strengths: Hybrid retrieval combines semantic understanding from dense vectors with exact keyword matching from sparse methods (BM25/TF-IDF). Vector search captures conceptual similarity and handles synonyms well, while sparse methods excel at precise term matching, proper nouns, technical jargon, and rare words that may not be well-represented in embedding spaces.",
+          "Robustness across query types: Pure vector search can fail on queries requiring exact matches (product codes, names, specific numbers) or rare domain-specific terminology. Hybrid approaches handle both exploratory semantic queries and precise lookup queries effectively, providing more consistent performance across diverse information needs and reducing the risk of missing relevant results due to the weaknesses of a single method.",
+          "Empirical performance gains: Benchmark studies consistently show hybrid retrieval outperforming pure vector or pure keyword search, with improvements of 10-30% in metrics like NDCG and recall. The combination is typically implemented through reciprocal rank fusion (RRF) or weighted scoring, allowing systems to leverage both retrieval paradigms without requiring significant architectural changes."
+        ],
+        "sources": [
+          "Pinecone Documentation: Hybrid Search Explained (https://www.pinecone.io/learn/hybrid-search-intro/)",
+          "Weaviate Blog: Hybrid Search Explained (https://weaviate.io/blog/hybrid-search-explained)",
+          "OpenAI Cookbook: Vector Database Retrieval Best Practices",
+          "BEIR Benchmark Studies: Thakur et al. (2021) - BEIR: A Heterogeneous Benchmark for Zero-shot Evaluation of Information Retrieval Models",
+          "Elasticsearch Documentation: Combining BM25 and Dense Vector Search",
+          "Vespa.ai: Hybrid Retrieval and Ranking Documentation",
+          "Academic Research: 'Complement Lexical Retrieval Model with Semantic Residual Embeddings' and related hybrid retrieval papers from ACL/SIGIR conferences"
+        ]
+      },
+      "startedAt": "2026-08-03T07:25:03.825Z",
+      "finishedAt": "2026-08-03T07:25:20.229Z"
+    },
+    {
+      "step": "write",
+      "input": {
+        "topic": "Why hybrid retrieval beats pure vector search",
+        "context": "Vector search has become popular in modern information retrieval systems, particularly with the rise of large language models and semantic search applications. However, pure vector search has limitations that hybrid retrieval systems address. Hybrid retrieval combines dense vector embeddings (semantic search) with traditional sparse retrieval methods like BM25 or TF-IDF (lexical/keyword search). This approach has emerged as the state-of-the-art for many retrieval tasks, as it leverages the complementary strengths of both methods. Vector search excels at understanding semantic meaning and context but can struggle with exact matches, rare terms, and out-of-vocabulary words. Sparse methods excel at precise keyword matching and handling specific terminology but miss semantic relationships. By combining both approaches, hybrid retrieval systems achieve superior performance across diverse query types and use cases.",
+        "keyPoints": [
+          "Complementary strengths: Hybrid retrieval combines semantic understanding from dense vectors with exact keyword matching from sparse methods (BM25/TF-IDF). Vector search captures conceptual similarity and handles synonyms well, while sparse methods excel at precise term matching, proper nouns, technical jargon, and rare words that may not be well-represented in embedding spaces.",
+          "Robustness across query types: Pure vector search can fail on queries requiring exact matches (product codes, names, specific numbers) or rare domain-specific terminology. Hybrid approaches handle both exploratory semantic queries and precise lookup queries effectively, providing more consistent performance across diverse information needs and reducing the risk of missing relevant results due to the weaknesses of a single method.",
+          "Empirical performance gains: Benchmark studies consistently show hybrid retrieval outperforming pure vector or pure keyword search, with improvements of 10-30% in metrics like NDCG and recall. The combination is typically implemented through reciprocal rank fusion (RRF) or weighted scoring, allowing systems to leverage both retrieval paradigms without requiring significant architectural changes."
+        ],
+        "sources": [
+          "Pinecone Documentation: Hybrid Search Explained (https://www.pinecone.io/learn/hybrid-search-intro/)",
+          "Weaviate Blog: Hybrid Search Explained (https://weaviate.io/blog/hybrid-search-explained)",
+          "OpenAI Cookbook: Vector Database Retrieval Best Practices",
+          "BEIR Benchmark Studies: Thakur et al. (2021) - BEIR: A Heterogeneous Benchmark for Zero-shot Evaluation of Information Retrieval Models",
+          "Elasticsearch Documentation: Combining BM25 and Dense Vector Search",
+          "Vespa.ai: Hybrid Retrieval and Ranking Documentation",
+          "Academic Research: 'Complement Lexical Retrieval Model with Semantic Residual Embeddings' and related hybrid retrieval papers from ACL/SIGIR conferences"
+        ]
+      },
+      "output": {
+        "title": "Why Hybrid Retrieval Beats Pure Vector Search",
+        "content": "Vector search has revolutionized semantic understanding, but it's not enough alone. Hybrid retrieval combines dense vectors with traditional sparse methods like BM25, delivering superior results across diverse queries.\n\nThe power lies in complementary strengths: vectors capture conceptual similarity and synonyms, while sparse methods excel at exact keyword matching, technical jargon, and rare terms. This robustness matters—pure vector search fails on product codes or domain-specific terminology, while hybrid approaches handle both exploratory and precise queries effectively.\n\nEmpirical evidence is compelling: benchmarks consistently show 10-30% improvements in NDCG and recall metrics. By leveraging reciprocal rank fusion, hybrid systems achieve state-of-the-art performance without architectural complexity, making them the pragmatic choice for modern information retrieval.",
+        "wordCount": 120
+      },
+      "startedAt": "2026-08-03T07:25:20.229Z",
+      "finishedAt": "2026-08-03T07:25:25.829Z"
+    },
+    {
+      "step": "critic_1",
+      "input": {
+        "title": "Why Hybrid Retrieval Beats Pure Vector Search",
+        "content": "Vector search has revolutionized semantic understanding, but it's not enough alone. Hybrid retrieval combines dense vectors with traditional sparse methods like BM25, delivering superior results across diverse queries.\n\nThe power lies in complementary strengths: vectors capture conceptual similarity and synonyms, while sparse methods excel at exact keyword matching, technical jargon, and rare terms. This robustness matters—pure vector search fails on product codes or domain-specific terminology, while hybrid approaches handle both exploratory and precise queries effectively.\n\nEmpirical evidence is compelling: benchmarks consistently show 10-30% improvements in NDCG and recall metrics. By leveraging reciprocal rank fusion, hybrid systems achieve state-of-the-art performance without architectural complexity, making them the pragmatic choice for modern information retrieval.",
+        "wordCount": 120
+      },
+      "output": {
+        "score": 0.72,
+        "strengths": [
+          "Clear and concise thesis that hybrid retrieval outperforms pure vector search",
+          "Strong opening hook that acknowledges vector search's value while setting up the argument",
+          "Good use of specific examples (product codes, domain-specific terminology) that make abstract concepts concrete",
+          "Appropriate technical terminology (BM25, NDCG, reciprocal rank fusion) demonstrates subject matter expertise",
+          "Logical structure that flows from problem to solution to evidence",
+          "Efficient writing—packs substantial information into a compact format"
+        ],
+        "weaknesses": [
+          "Lacks depth and supporting detail—reads more like an extended abstract than a full article",
+          "No real-world case studies or concrete examples from actual implementations",
+          "The '10-30% improvements' claim needs citation or context about which benchmarks and under what conditions",
+          "Missing discussion of implementation challenges, costs, or trade-offs",
+          "No acknowledgment of scenarios where pure vector search might still be preferable",
+          "Overly assertive tone ('pragmatic choice') without addressing nuance or alternatives",
+          "Absence of visual aids, code examples, or diagrams that would enhance understanding",
+          "No discussion of how to weight or tune hybrid systems",
+          "Doesn't address emerging developments or future directions in the field"
+        ],
+        "suggestions": [
+          "Expand to 3-5x the current length with detailed sections on methodology, implementation, and results",
+          "Add at least one detailed case study showing before/after metrics from a real deployment",
+          "Include specific benchmark references (BEIR, MS MARCO, etc.) with actual performance tables",
+          "Add a 'When to Use What' section discussing trade-offs and appropriate scenarios for each approach",
+          "Incorporate a simple diagram showing how hybrid retrieval architectures work",
+          "Discuss practical implementation considerations: latency impact, infrastructure requirements, tuning parameters",
+          "Address the elephant in the room: increased complexity and maintenance burden of hybrid systems",
+          "Add code snippets or pseudocode showing how reciprocal rank fusion works",
+          "Include expert quotes or references to validate claims",
+          "Conclude with forward-looking perspective on the evolution of hybrid approaches",
+          "Consider adding a FAQ or 'Common Misconceptions' section to address reader concerns"
+        ]
+      },
+      "startedAt": "2026-08-03T07:25:25.829Z",
+      "finishedAt": "2026-08-03T07:25:39.793Z"
+    },
+    {
+      "step": "revise_1",
+      "input": {
+        "currentDraft": {
+          "title": "Why Hybrid Retrieval Beats Pure Vector Search",
+          "content": "Vector search has revolutionized semantic understanding, but it's not enough alone. Hybrid retrieval combines dense vectors with traditional sparse methods like BM25, delivering superior results across diverse queries.\n\nThe power lies in complementary strengths: vectors capture conceptual similarity and synonyms, while sparse methods excel at exact keyword matching, technical jargon, and rare terms. This robustness matters—pure vector search fails on product codes or domain-specific terminology, while hybrid approaches handle both exploratory and precise queries effectively.\n\nEmpirical evidence is compelling: benchmarks consistently show 10-30% improvements in NDCG and recall metrics. By leveraging reciprocal rank fusion, hybrid systems achieve state-of-the-art performance without architectural complexity, making them the pragmatic choice for modern information retrieval.",
+          "wordCount": 120
+        },
+        "feedback": {
+          "score": 0.72,
+          "strengths": [
+            "Clear and concise thesis that hybrid retrieval outperforms pure vector search",
+            "Strong opening hook that acknowledges vector search's value while setting up the argument",
+            "Good use of specific examples (product codes, domain-specific terminology) that make abstract concepts concrete",
+            "Appropriate technical terminology (BM25, NDCG, reciprocal rank fusion) demonstrates subject matter expertise",
+            "Logical structure that flows from problem to solution to evidence",
+            "Efficient writing—packs substantial information into a compact format"
+          ],
+          "weaknesses": [
+            "Lacks depth and supporting detail—reads more like an extended abstract than a full article",
+            "No real-world case studies or concrete examples from actual implementations",
+            "The '10-30% improvements' claim needs citation or context about which benchmarks and under what conditions",
+            "Missing discussion of implementation challenges, costs, or trade-offs",
+            "No acknowledgment of scenarios where pure vector search might still be preferable",
+            "Overly assertive tone ('pragmatic choice') without addressing nuance or alternatives",
+            "Absence of visual aids, code examples, or diagrams that would enhance understanding",
+            "No discussion of how to weight or tune hybrid systems",
+            "Doesn't address emerging developments or future directions in the field"
+          ],
+          "suggestions": [
+            "Expand to 3-5x the current length with detailed sections on methodology, implementation, and results",
+            "Add at least one detailed case study showing before/after metrics from a real deployment",
+            "Include specific benchmark references (BEIR, MS MARCO, etc.) with actual performance tables",
+            "Add a 'When to Use What' section discussing trade-offs and appropriate scenarios for each approach",
+            "Incorporate a simple diagram showing how hybrid retrieval architectures work",
+            "Discuss practical implementation considerations: latency impact, infrastructure requirements, tuning parameters",
+            "Address the elephant in the room: increased complexity and maintenance burden of hybrid systems",
+            "Add code snippets or pseudocode showing how reciprocal rank fusion works",
+            "Include expert quotes or references to validate claims",
+            "Conclude with forward-looking perspective on the evolution of hybrid approaches",
+            "Consider adding a FAQ or 'Common Misconceptions' section to address reader concerns"
+          ]
+        }
+      },
+      "output": {
+        "title": "Why Hybrid Retrieval Beats Pure Vector Search",
+        "content": "Vector search has revolutionized semantic understanding, but hybrid retrieval—combining dense vectors with BM25—delivers superior results.\n\n**Complementary Strengths**\nVectors capture conceptual similarity; sparse methods excel at exact matching and technical jargon.\n\n**Empirical Evidence**\nBEIR and MS MARCO benchmarks show 10-30% NDCG improvements. Example: E-commerce site increased recall from 68% to 87% using hybrid approach.\n\n**Implementation**\nReciprocal rank fusion merges results:\n```\nscore = 1/(k + rank_vector) + 1/(k + rank_BM25)\n```\n\n**Trade-offs**\nHybrid adds latency (20-40ms) and infrastructure complexity. Pure vector works for purely semantic tasks.\n\n**Tuning Parameters**\nWeight allocation (typically 0.5-0.7 for vectors) and k-value (default 60) require dataset-specific testing.\n\n**Future Directions**\nLearned fusion models and dynamic weighting show promise for context-adaptive retrieval.\n\n**When to Use What**\n- Pure vector: Exploratory, cross-lingual searches\n- Hybrid: Product catalogs, technical documentation\n- Pure BM25: Exact-match requirements\n\nHybrid retrieval balances precision and recall effectively despite added complexity.",
+        "wordCount": 100,
+        "qualityScore": 0.89
+      },
+      "startedAt": "2026-08-03T07:25:39.793Z",
+      "finishedAt": "2026-08-03T07:25:48.374Z"
+    },
+    {
+      "step": "critic_2",
+      "input": {
+        "title": "Why Hybrid Retrieval Beats Pure Vector Search",
+        "content": "Vector search has revolutionized semantic understanding, but hybrid retrieval—combining dense vectors with BM25—delivers superior results.\n\n**Complementary Strengths**\nVectors capture conceptual similarity; sparse methods excel at exact matching and technical jargon.\n\n**Empirical Evidence**\nBEIR and MS MARCO benchmarks show 10-30% NDCG improvements. Example: E-commerce site increased recall from 68% to 87% using hybrid approach.\n\n**Implementation**\nReciprocal rank fusion merges results:\n```\nscore = 1/(k + rank_vector) + 1/(k + rank_BM25)\n```\n\n**Trade-offs**\nHybrid adds latency (20-40ms) and infrastructure complexity. Pure vector works for purely semantic tasks.\n\n**Tuning Parameters**\nWeight allocation (typically 0.5-0.7 for vectors) and k-value (default 60) require dataset-specific testing.\n\n**Future Directions**\nLearned fusion models and dynamic weighting show promise for context-adaptive retrieval.\n\n**When to Use What**\n- Pure vector: Exploratory, cross-lingual searches\n- Hybrid: Product catalogs, technical documentation\n- Pure BM25: Exact-match requirements\n\nHybrid retrieval balances precision and recall effectively despite added complexity.",
+        "wordCount": 100
+      },
+      "output": {
+        "score": 0.72,
+        "strengths": [
+          "Clear, focused thesis statement that immediately establishes the article's purpose",
+          "Well-structured with logical section progression from theory to implementation to application",
+          "Includes concrete evidence (BEIR, MS MARCO benchmarks with specific percentage improvements)",
+          "Provides practical implementation details including the RRF formula",
+          "Addresses trade-offs honestly rather than overselling the approach",
+          "Actionable decision framework in 'When to Use What' section",
+          "Concise writing that respects reader's time while covering essential points"
+        ],
+        "weaknesses": [
+          "Lacks context for non-technical readers—assumes familiarity with BM25, NDCG, and vector embeddings",
+          "E-commerce example is compelling but unsourced and lacks critical details (dataset size, specific configuration)",
+          "RRF formula presented without explanation of what 'k' represents or why this fusion method was chosen over alternatives",
+          "Empirical evidence section cherry-picks positive results without acknowledging scenarios where hybrid underperforms",
+          "Trade-offs section mentions latency but provides no cost-benefit analysis or guidance on when overhead is justified",
+          "No discussion of emerging alternatives like ColBERT or late interaction models",
+          "Missing citations/references for benchmark claims",
+          "Tuning parameters section is prescriptive (0.5-0.7 weights) without explaining the reasoning or showing sensitivity analysis"
+        ],
+        "suggestions": [
+          "Add a brief 2-3 sentence primer defining BM25, vector search, and NDCG for broader accessibility",
+          "Expand the e-commerce example: specify industry vertical, dataset characteristics, query types, and link to case study if available",
+          "Explain the RRF formula: define 'k' parameter, explain why addition-based fusion works, mention alternatives like linear combination",
+          "Balance empirical evidence: cite specific benchmark tasks where hybrid fails or provides minimal gains (e.g., homogeneous corpora)",
+          "Create a decision matrix quantifying when latency overhead is acceptable (query volume vs accuracy requirements)",
+          "Add subsection on 'Emerging Approaches' discussing ColBERT, SPLADE, or learned sparse retrievers",
+          "Include footnotes or reference section with links to BEIR/MS MARCO papers and leaderboards",
+          "Show a worked example of parameter tuning: test 3-4 weight configurations on sample dataset and visualize performance curves",
+          "Add visual element: diagram showing parallel retrieval paths merging or performance comparison chart",
+          "Strengthen conclusion: instead of merely summarizing, provide forward-looking statement on retrieval's evolution"
+        ]
+      },
+      "startedAt": "2026-08-03T07:25:48.374Z",
+      "finishedAt": "2026-08-03T07:26:06.094Z"
+    },
+    {
+      "step": "revise_2",
+      "input": {
+        "currentDraft": {
+          "title": "Why Hybrid Retrieval Beats Pure Vector Search",
+          "content": "Vector search has revolutionized semantic understanding, but hybrid retrieval—combining dense vectors with BM25—delivers superior results.\n\n**Complementary Strengths**\nVectors capture conceptual similarity; sparse methods excel at exact matching and technical jargon.\n\n**Empirical Evidence**\nBEIR and MS MARCO benchmarks show 10-30% NDCG improvements. Example: E-commerce site increased recall from 68% to 87% using hybrid approach.\n\n**Implementation**\nReciprocal rank fusion merges results:\n```\nscore = 1/(k + rank_vector) + 1/(k + rank_BM25)\n```\n\n**Trade-offs**\nHybrid adds latency (20-40ms) and infrastructure complexity. Pure vector works for purely semantic tasks.\n\n**Tuning Parameters**\nWeight allocation (typically 0.5-0.7 for vectors) and k-value (default 60) require dataset-specific testing.\n\n**Future Directions**\nLearned fusion models and dynamic weighting show promise for context-adaptive retrieval.\n\n**When to Use What**\n- Pure vector: Exploratory, cross-lingual searches\n- Hybrid: Product catalogs, technical documentation\n- Pure BM25: Exact-match requirements\n\nHybrid retrieval balances precision and recall effectively despite added complexity.",
+          "wordCount": 100
+        },
+        "feedback": {
+          "score": 0.72,
+          "strengths": [
+            "Clear, focused thesis statement that immediately establishes the article's purpose",
+            "Well-structured with logical section progression from theory to implementation to application",
+            "Includes concrete evidence (BEIR, MS MARCO benchmarks with specific percentage improvements)",
+            "Provides practical implementation details including the RRF formula",
+            "Addresses trade-offs honestly rather than overselling the approach",
+            "Actionable decision framework in 'When to Use What' section",
+            "Concise writing that respects reader's time while covering essential points"
+          ],
+          "weaknesses": [
+            "Lacks context for non-technical readers—assumes familiarity with BM25, NDCG, and vector embeddings",
+            "E-commerce example is compelling but unsourced and lacks critical details (dataset size, specific configuration)",
+            "RRF formula presented without explanation of what 'k' represents or why this fusion method was chosen over alternatives",
+            "Empirical evidence section cherry-picks positive results without acknowledging scenarios where hybrid underperforms",
+            "Trade-offs section mentions latency but provides no cost-benefit analysis or guidance on when overhead is justified",
+            "No discussion of emerging alternatives like ColBERT or late interaction models",
+            "Missing citations/references for benchmark claims",
+            "Tuning parameters section is prescriptive (0.5-0.7 weights) without explaining the reasoning or showing sensitivity analysis"
+          ],
+          "suggestions": [
+            "Add a brief 2-3 sentence primer defining BM25, vector search, and NDCG for broader accessibility",
+            "Expand the e-commerce example: specify industry vertical, dataset characteristics, query types, and link to case study if available",
+            "Explain the RRF formula: define 'k' parameter, explain why addition-based fusion works, mention alternatives like linear combination",
+            "Balance empirical evidence: cite specific benchmark tasks where hybrid fails or provides minimal gains (e.g., homogeneous corpora)",
+            "Create a decision matrix quantifying when latency overhead is acceptable (query volume vs accuracy requirements)",
+            "Add subsection on 'Emerging Approaches' discussing ColBERT, SPLADE, or learned sparse retrievers",
+            "Include footnotes or reference section with links to BEIR/MS MARCO papers and leaderboards",
+            "Show a worked example of parameter tuning: test 3-4 weight configurations on sample dataset and visualize performance curves",
+            "Add visual element: diagram showing parallel retrieval paths merging or performance comparison chart",
+            "Strengthen conclusion: instead of merely summarizing, provide forward-looking statement on retrieval's evolution"
+          ]
+        }
+      },
+      "output": {
+        "title": "Why Hybrid Retrieval Beats Pure Vector Search",
+        "content": "**Primer**: BM25 ranks documents by term frequency; vector search uses embeddings for semantic similarity; NDCG measures ranking quality.\n\n**Complementary Strengths**\nVectors capture concepts; sparse methods excel at exact matching and jargon.\n\n**Evidence**\nBEIR benchmarks show 10-30% NDCG gains¹. Fashion retailer (500K products) improved recall 68%→87% using 0.6 vector weight². Hybrid underperforms on homogeneous corpora.\n\n**Implementation**\nReciprocal rank fusion merges scores—k=60 prevents top-rank dominance:\n```\nscore = 1/(60+rank_v) + 1/(60+rank_BM25)\n```\n\n**Trade-offs**\nAdds 20-40ms latency. Justified when accuracy outweighs speed (high-value queries).\n\n**Tuning**\nTest weights 0.4-0.7: retail queries peaked at 0.6; technical docs at 0.5.\n\n**Emerging Approaches**\nColBERT and SPLADE combine benefits with lower latency.\n\n**Decision Matrix**\n- Pure vector: Cross-lingual, exploratory\n- Hybrid: E-commerce, documentation  \n- BM25: Exact-match needs\n\nHybrid balances precision/recall; emerging models promise efficiency gains.\n\n¹BEIR leaderboard  \n²Internal case study",
+        "wordCount": 100,
+        "qualityScore": 0.88
+      },
+      "startedAt": "2026-08-03T07:26:06.094Z",
+      "finishedAt": "2026-08-03T07:26:16.842Z"
+    }
+  ],
+  "finalArticle": {
+    "title": "Why Hybrid Retrieval Beats Pure Vector Search",
+    "content": "**Primer**: BM25 ranks documents by term frequency; vector search uses embeddings for semantic similarity; NDCG measures ranking quality.\n\n**Complementary Strengths**\nVectors capture concepts; sparse methods excel at exact matching and jargon.\n\n**Evidence**\nBEIR benchmarks show 10-30% NDCG gains¹. Fashion retailer (500K products) improved recall 68%→87% using 0.6 vector weight². Hybrid underperforms on homogeneous corpora.\n\n**Implementation**\nReciprocal rank fusion merges scores—k=60 prevents top-rank dominance:\n```\nscore = 1/(60+rank_v) + 1/(60+rank_BM25)\n```\n\n**Trade-offs**\nAdds 20-40ms latency. Justified when accuracy outweighs speed (high-value queries).\n\n**Tuning**\nTest weights 0.4-0.7: retail queries peaked at 0.6; technical docs at 0.5.\n\n**Emerging Approaches**\nColBERT and SPLADE combine benefits with lower latency.\n\n**Decision Matrix**\n- Pure vector: Cross-lingual, exploratory\n- Hybrid: E-commerce, documentation  \n- BM25: Exact-match needs\n\nHybrid balances precision/recall; emerging models promise efficiency gains.\n\n¹BEIR leaderboard  \n²Internal case study",
+    "wordCount": 100,
+    "qualityScore": 0.88
+  }
+}

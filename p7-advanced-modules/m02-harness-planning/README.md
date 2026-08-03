@@ -1,6 +1,6 @@
 # M2 - Harness Engineering: Planning + Sub-Agent Isolation
 
-Status: **Not started**
+Status: **Complete** — see `HANDOFF.md`
 
 Full curriculum source:
 `../../AI-Engineering-Advanced-Mastery-Plan.md`

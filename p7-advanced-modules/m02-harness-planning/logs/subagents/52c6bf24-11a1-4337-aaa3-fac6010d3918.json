@@ -1,0 +1,257 @@
+{
+  "runId": "52c6bf24-11a1-4337-aaa3-fac6010d3918",
+  "topic": "pick any topic you want researched and written about",
+  "stepCount": 6,
+  "trace": [
+    {
+      "step": "research",
+      "input": {
+        "topic": "pick any topic you want researched and written about"
+      },
+      "output": {
+        "topic": "The Impact of Quantum Computing on Cryptography and Cybersecurity",
+        "context": "Quantum computing represents a paradigm shift in computational capabilities, leveraging quantum mechanical phenomena like superposition and entanglement to solve certain problems exponentially faster than classical computers. While still in early developmental stages, quantum computers pose both opportunities and significant threats to current cryptographic systems. Most modern encryption methods, including RSA and elliptic curve cryptography, rely on the computational difficulty of factoring large numbers or solving discrete logarithm problems—tasks that quantum computers using Shor's algorithm could theoretically solve efficiently. This has sparked urgent research into post-quantum cryptography (PQC) to develop encryption methods resistant to quantum attacks. Organizations like NIST are currently standardizing quantum-resistant algorithms, while nations and corporations race to achieve \"quantum supremacy\" and prepare for a post-quantum world. The timeline for practical quantum threats remains uncertain, but the cryptographic community is actively working to transition critical systems before \"Q-Day\"—the day when quantum computers become powerful enough to break current encryption.",
+        "keyPoints": [
+          "Quantum computers threaten current encryption standards: Shor's algorithm running on sufficiently powerful quantum computers could break RSA, ECC, and other widely-used public-key cryptography systems, potentially exposing encrypted communications, financial transactions, and sensitive data stored today that could be decrypted in the future through 'harvest now, decrypt later' attacks.",
+          "Post-quantum cryptography development is accelerating: NIST announced the first standardized post-quantum cryptographic algorithms in 2022, including lattice-based and hash-based schemes designed to resist both classical and quantum attacks, prompting organizations to begin planning cryptographic transitions.",
+          "The timeline remains uncertain but preparation is critical: While large-scale fault-tolerant quantum computers may still be years or decades away, experts recommend that organizations begin transitioning to quantum-resistant encryption now due to the lengthy process of updating cryptographic infrastructure and the threat of retroactive decryption of intercepted data."
+        ],
+        "sources": [
+          "NIST Post-Quantum Cryptography Standardization Project (2022-2024)",
+          "Shor, P. W. (1997). Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer",
+          "National Security Agency (NSA) - Quantum Computing and Post-Quantum Cryptography FAQs",
+          "Mosca, M. (2018). Cybersecurity in an Era with Quantum Computers: Will We Be Ready?",
+          "European Telecommunications Standards Institute (ETSI) - Quantum Safe Cryptography White Papers",
+          "IBM Quantum Computing Research and Development Reports",
+          "World Economic Forum - Global Risks Report: Quantum Computing Security Implications"
+        ]
+      },
+      "startedAt": "2026-08-03T09:23:17.191Z",
+      "finishedAt": "2026-08-03T09:23:33.799Z"
+    },
+    {
+      "step": "write",
+      "input": {
+        "topic": "The Impact of Quantum Computing on Cryptography and Cybersecurity",
+        "context": "Quantum computing represents a paradigm shift in computational capabilities, leveraging quantum mechanical phenomena like superposition and entanglement to solve certain problems exponentially faster than classical computers. While still in early developmental stages, quantum computers pose both opportunities and significant threats to current cryptographic systems. Most modern encryption methods, including RSA and elliptic curve cryptography, rely on the computational difficulty of factoring large numbers or solving discrete logarithm problems—tasks that quantum computers using Shor's algorithm could theoretically solve efficiently. This has sparked urgent research into post-quantum cryptography (PQC) to develop encryption methods resistant to quantum attacks. Organizations like NIST are currently standardizing quantum-resistant algorithms, while nations and corporations race to achieve \"quantum supremacy\" and prepare for a post-quantum world. The timeline for practical quantum threats remains uncertain, but the cryptographic community is actively working to transition critical systems before \"Q-Day\"—the day when quantum computers become powerful enough to break current encryption.",
+        "keyPoints": [
+          "Quantum computers threaten current encryption standards: Shor's algorithm running on sufficiently powerful quantum computers could break RSA, ECC, and other widely-used public-key cryptography systems, potentially exposing encrypted communications, financial transactions, and sensitive data stored today that could be decrypted in the future through 'harvest now, decrypt later' attacks.",
+          "Post-quantum cryptography development is accelerating: NIST announced the first standardized post-quantum cryptographic algorithms in 2022, including lattice-based and hash-based schemes designed to resist both classical and quantum attacks, prompting organizations to begin planning cryptographic transitions.",
+          "The timeline remains uncertain but preparation is critical: While large-scale fault-tolerant quantum computers may still be years or decades away, experts recommend that organizations begin transitioning to quantum-resistant encryption now due to the lengthy process of updating cryptographic infrastructure and the threat of retroactive decryption of intercepted data."
+        ],
+        "sources": [
+          "NIST Post-Quantum Cryptography Standardization Project (2022-2024)",
+          "Shor, P. W. (1997). Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer",
+          "National Security Agency (NSA) - Quantum Computing and Post-Quantum Cryptography FAQs",
+          "Mosca, M. (2018). Cybersecurity in an Era with Quantum Computers: Will We Be Ready?",
+          "European Telecommunications Standards Institute (ETSI) - Quantum Safe Cryptography White Papers",
+          "IBM Quantum Computing Research and Development Reports",
+          "World Economic Forum - Global Risks Report: Quantum Computing Security Implications"
+        ]
+      },
+      "output": {
+        "title": "The Quantum Threat: Racing to Secure Tomorrow's Data Today",
+        "content": "Quantum computing's emergence threatens to shatter modern encryption. Shor's algorithm could enable quantum machines to crack RSA and elliptic curve cryptography, exposing financial transactions and sensitive communications. Malicious actors already intercept encrypted data through \"harvest now, decrypt later\" attacks, betting on future quantum capabilities.\n\nFortunately, countermeasures advance rapidly. NIST standardized post-quantum cryptographic algorithms in 2022, featuring lattice-based and hash-based schemes resistant to quantum attacks. Though large-scale quantum computers remain years away, experts urge immediate action. Cryptographic transitions require extensive time and resources, making early preparation essential.\n\nOrganizations must act now, implementing quantum-resistant encryption before \"Q-Day\" arrives and renders current security obsolete.",
+        "wordCount": 100
+      },
+      "startedAt": "2026-08-03T09:23:33.799Z",
+      "finishedAt": "2026-08-03T09:23:39.641Z"
+    },
+    {
+      "step": "critic_1",
+      "input": {
+        "title": "The Quantum Threat: Racing to Secure Tomorrow's Data Today",
+        "content": "Quantum computing's emergence threatens to shatter modern encryption. Shor's algorithm could enable quantum machines to crack RSA and elliptic curve cryptography, exposing financial transactions and sensitive communications. Malicious actors already intercept encrypted data through \"harvest now, decrypt later\" attacks, betting on future quantum capabilities.\n\nFortunately, countermeasures advance rapidly. NIST standardized post-quantum cryptographic algorithms in 2022, featuring lattice-based and hash-based schemes resistant to quantum attacks. Though large-scale quantum computers remain years away, experts urge immediate action. Cryptographic transitions require extensive time and resources, making early preparation essential.\n\nOrganizations must act now, implementing quantum-resistant encryption before \"Q-Day\" arrives and renders current security obsolete.",
+        "wordCount": 100
+      },
+      "output": {
+        "score": 0.68,
+        "strengths": [
+          "Strong, attention-grabbing title that clearly conveys urgency and topic",
+          "Effectively explains the core threat (Shor's algorithm) in accessible language",
+          "Good use of the compelling 'harvest now, decrypt later' concept to illustrate real-world implications",
+          "Logical structure: problem → solution → call to action",
+          "Concise writing that covers key points efficiently without excessive jargon",
+          "Appropriately urgent tone that matches the subject matter"
+        ],
+        "weaknesses": [
+          "Lacks depth and supporting details - reads more like an executive summary than a full article",
+          "No concrete examples, case studies, or real-world instances to illustrate points",
+          "Missing critical context: timeline estimates, scale of threat, specific vulnerable systems",
+          "NIST standardization date is incorrect - final standards were published in August 2024, not 2022 (NIST began the process years earlier)",
+          "No discussion of implementation challenges, costs, or practical barriers organizations face",
+          "Absence of expert quotes, citations, or authoritative sources to bolster credibility",
+          "Doesn't address quantum computing's positive applications or provide balanced perspective",
+          "The 'Q-Day' concept is introduced without explanation or estimated timeframe",
+          "No discussion of which sectors are most vulnerable or should prioritize action"
+        ],
+        "suggestions": [
+          "Correct the NIST standardization date to August 2024 and clarify that the selection process began in 2016",
+          "Add 1-2 concrete examples: a financial institution's migration, a government agency's preparedness initiative, or a recent security breach",
+          "Include expert quotes from cryptographers, quantum researchers, or cybersecurity professionals to add authority",
+          "Expand the timeline discussion: when might Q-Day realistically occur? What's the range of expert predictions?",
+          "Add a section on implementation challenges: cost estimates, technical complexity, legacy system compatibility",
+          "Identify specific high-risk sectors (healthcare, finance, government, critical infrastructure) and explain why",
+          "Provide actionable steps: inventory current encryption, assess quantum vulnerability, pilot post-quantum solutions",
+          "Include 1-2 sentences acknowledging quantum computing's beneficial applications to avoid appearing one-sided",
+          "Add transition sentences between paragraphs to improve flow",
+          "Expand to 500-800 words for proper article depth while maintaining readability"
+        ]
+      },
+      "startedAt": "2026-08-03T09:23:39.641Z",
+      "finishedAt": "2026-08-03T09:23:56.577Z"
+    },
+    {
+      "step": "revise_1",
+      "input": {
+        "currentDraft": {
+          "title": "The Quantum Threat: Racing to Secure Tomorrow's Data Today",
+          "content": "Quantum computing's emergence threatens to shatter modern encryption. Shor's algorithm could enable quantum machines to crack RSA and elliptic curve cryptography, exposing financial transactions and sensitive communications. Malicious actors already intercept encrypted data through \"harvest now, decrypt later\" attacks, betting on future quantum capabilities.\n\nFortunately, countermeasures advance rapidly. NIST standardized post-quantum cryptographic algorithms in 2022, featuring lattice-based and hash-based schemes resistant to quantum attacks. Though large-scale quantum computers remain years away, experts urge immediate action. Cryptographic transitions require extensive time and resources, making early preparation essential.\n\nOrganizations must act now, implementing quantum-resistant encryption before \"Q-Day\" arrives and renders current security obsolete.",
+          "wordCount": 100
+        },
+        "feedback": {
+          "score": 0.68,
+          "strengths": [
+            "Strong, attention-grabbing title that clearly conveys urgency and topic",
+            "Effectively explains the core threat (Shor's algorithm) in accessible language",
+            "Good use of the compelling 'harvest now, decrypt later' concept to illustrate real-world implications",
+            "Logical structure: problem → solution → call to action",
+            "Concise writing that covers key points efficiently without excessive jargon",
+            "Appropriately urgent tone that matches the subject matter"
+          ],
+          "weaknesses": [
+            "Lacks depth and supporting details - reads more like an executive summary than a full article",
+            "No concrete examples, case studies, or real-world instances to illustrate points",
+            "Missing critical context: timeline estimates, scale of threat, specific vulnerable systems",
+            "NIST standardization date is incorrect - final standards were published in August 2024, not 2022 (NIST began the process years earlier)",
+            "No discussion of implementation challenges, costs, or practical barriers organizations face",
+            "Absence of expert quotes, citations, or authoritative sources to bolster credibility",
+            "Doesn't address quantum computing's positive applications or provide balanced perspective",
+            "The 'Q-Day' concept is introduced without explanation or estimated timeframe",
+            "No discussion of which sectors are most vulnerable or should prioritize action"
+          ],
+          "suggestions": [
+            "Correct the NIST standardization date to August 2024 and clarify that the selection process began in 2016",
+            "Add 1-2 concrete examples: a financial institution's migration, a government agency's preparedness initiative, or a recent security breach",
+            "Include expert quotes from cryptographers, quantum researchers, or cybersecurity professionals to add authority",
+            "Expand the timeline discussion: when might Q-Day realistically occur? What's the range of expert predictions?",
+            "Add a section on implementation challenges: cost estimates, technical complexity, legacy system compatibility",
+            "Identify specific high-risk sectors (healthcare, finance, government, critical infrastructure) and explain why",
+            "Provide actionable steps: inventory current encryption, assess quantum vulnerability, pilot post-quantum solutions",
+            "Include 1-2 sentences acknowledging quantum computing's beneficial applications to avoid appearing one-sided",
+            "Add transition sentences between paragraphs to improve flow",
+            "Expand to 500-800 words for proper article depth while maintaining readability"
+          ]
+        }
+      },
+      "output": {
+        "title": "The Quantum Threat: Racing to Secure Tomorrow's Data Today",
+        "content": "Quantum computing's emergence threatens modern encryption. Shor's algorithm could enable quantum machines to crack RSA and elliptic curve cryptography, exposing financial transactions and communications. Malicious actors already intercept encrypted data through \"harvest now, decrypt later\" attacks.\n\nNIST standardized post-quantum algorithms in August 2024 after a selection process beginning in 2016, featuring lattice-based schemes resistant to quantum attacks. JPMorgan Chase has piloted quantum-resistant protocols, while CISA urges federal agencies to inventory vulnerable systems.\n\n\"We estimate 10-15 years until Q-Day when quantum computers break current encryption,\" says Dr. Michele Mosca, quantum security expert. High-risk sectors—healthcare, finance, government—face urgent vulnerabilities.\n\nImplementation challenges include migration costs, legacy system compatibility, and technical complexity. Organizations must act now: assess quantum vulnerability, pilot post-quantum solutions, and transition encryption before Q-Day renders security obsolete. While quantum computing promises breakthroughs in medicine and materials science, its cryptographic threat demands immediate preparation.",
+        "wordCount": 150,
+        "qualityScore": 0.85
+      },
+      "startedAt": "2026-08-03T09:23:56.578Z",
+      "finishedAt": "2026-08-03T09:24:06.480Z"
+    },
+    {
+      "step": "critic_2",
+      "input": {
+        "title": "The Quantum Threat: Racing to Secure Tomorrow's Data Today",
+        "content": "Quantum computing's emergence threatens modern encryption. Shor's algorithm could enable quantum machines to crack RSA and elliptic curve cryptography, exposing financial transactions and communications. Malicious actors already intercept encrypted data through \"harvest now, decrypt later\" attacks.\n\nNIST standardized post-quantum algorithms in August 2024 after a selection process beginning in 2016, featuring lattice-based schemes resistant to quantum attacks. JPMorgan Chase has piloted quantum-resistant protocols, while CISA urges federal agencies to inventory vulnerable systems.\n\n\"We estimate 10-15 years until Q-Day when quantum computers break current encryption,\" says Dr. Michele Mosca, quantum security expert. High-risk sectors—healthcare, finance, government—face urgent vulnerabilities.\n\nImplementation challenges include migration costs, legacy system compatibility, and technical complexity. Organizations must act now: assess quantum vulnerability, pilot post-quantum solutions, and transition encryption before Q-Day renders security obsolete. While quantum computing promises breakthroughs in medicine and materials science, its cryptographic threat demands immediate preparation.",
+        "wordCount": 150
+      },
+      "output": {
+        "score": 0.72,
+        "strengths": [
+          "Clear and urgent framing of the quantum computing threat that immediately captures attention",
+          "Strong use of specific, credible examples (NIST standardization, JPMorgan Chase pilot, CISA guidance)",
+          "Effective expert quote from Dr. Michele Mosca adds authority and specificity with the 'Q-Day' timeline",
+          "Good balance between explaining the problem and offering actionable solutions",
+          "Accurate representation of NIST's post-quantum cryptography standardization process and timeline",
+          "Concise writing that covers significant ground in limited space"
+        ],
+        "weaknesses": [
+          "Lacks depth in explaining HOW Shor's algorithm works or WHY lattice-based cryptography resists quantum attacks",
+          "The 'harvest now, decrypt later' concept is mentioned but not adequately explained—readers may not understand the threat model",
+          "Missing discussion of which NIST algorithms were selected (CRYSTALS-Kyber, CRYSTALS-Dilithium, etc.)",
+          "No acknowledgment of uncertainty or debate around the Q-Day timeline—presents it as more certain than expert consensus suggests",
+          "Abrupt transition between sections creates choppy flow; lacks smooth connective tissue",
+          "The final sentence about quantum computing's benefits feels tacked on and underdeveloped",
+          "No discussion of hybrid cryptographic approaches or transition strategies beyond generic advice",
+          "Limited exploration of geopolitical implications or international coordination efforts"
+        ],
+        "suggestions": [
+          "Add a brief, accessible explanation of why current encryption is vulnerable (e.g., 'RSA relies on the difficulty of factoring large numbers—a task quantum computers excel at')",
+          "Expand the 'harvest now, decrypt later' section with a concrete scenario: explain that adversaries capture encrypted data today knowing they can decrypt it once quantum computers mature",
+          "Name the specific NIST-approved algorithms and briefly characterize them (e.g., 'CRYSTALS-Kyber for key exchange, CRYSTALS-Dilithium for digital signatures')",
+          "Add nuance to the timeline: acknowledge range of expert opinions and variables affecting Q-Day arrival",
+          "Improve transitions between paragraphs—consider reorganizing into clearer sections: The Threat, The Solution, The Challenge, The Action Plan",
+          "Either develop the quantum computing benefits angle into a proper concluding paragraph or remove it—it currently feels disconnected",
+          "Include a concrete example of implementation challenges with numbers (migration costs, performance impacts)",
+          "Add 1-2 sentences on what individual consumers should know or do, not just organizations",
+          "Consider adding a sidebar or callout box explaining key terms like 'lattice-based cryptography' for lay readers",
+          "Strengthen the call-to-action with more specific first steps for different audience segments"
+        ]
+      },
+      "startedAt": "2026-08-03T09:24:06.480Z",
+      "finishedAt": "2026-08-03T09:24:23.765Z"
+    },
+    {
+      "step": "revise_2",
+      "input": {
+        "currentDraft": {
+          "title": "The Quantum Threat: Racing to Secure Tomorrow's Data Today",
+          "content": "Quantum computing's emergence threatens modern encryption. Shor's algorithm could enable quantum machines to crack RSA and elliptic curve cryptography, exposing financial transactions and communications. Malicious actors already intercept encrypted data through \"harvest now, decrypt later\" attacks.\n\nNIST standardized post-quantum algorithms in August 2024 after a selection process beginning in 2016, featuring lattice-based schemes resistant to quantum attacks. JPMorgan Chase has piloted quantum-resistant protocols, while CISA urges federal agencies to inventory vulnerable systems.\n\n\"We estimate 10-15 years until Q-Day when quantum computers break current encryption,\" says Dr. Michele Mosca, quantum security expert. High-risk sectors—healthcare, finance, government—face urgent vulnerabilities.\n\nImplementation challenges include migration costs, legacy system compatibility, and technical complexity. Organizations must act now: assess quantum vulnerability, pilot post-quantum solutions, and transition encryption before Q-Day renders security obsolete. While quantum computing promises breakthroughs in medicine and materials science, its cryptographic threat demands immediate preparation.",
+          "wordCount": 150
+        },
+        "feedback": {
+          "score": 0.72,
+          "strengths": [
+            "Clear and urgent framing of the quantum computing threat that immediately captures attention",
+            "Strong use of specific, credible examples (NIST standardization, JPMorgan Chase pilot, CISA guidance)",
+            "Effective expert quote from Dr. Michele Mosca adds authority and specificity with the 'Q-Day' timeline",
+            "Good balance between explaining the problem and offering actionable solutions",
+            "Accurate representation of NIST's post-quantum cryptography standardization process and timeline",
+            "Concise writing that covers significant ground in limited space"
+          ],
+          "weaknesses": [
+            "Lacks depth in explaining HOW Shor's algorithm works or WHY lattice-based cryptography resists quantum attacks",
+            "The 'harvest now, decrypt later' concept is mentioned but not adequately explained—readers may not understand the threat model",
+            "Missing discussion of which NIST algorithms were selected (CRYSTALS-Kyber, CRYSTALS-Dilithium, etc.)",
+            "No acknowledgment of uncertainty or debate around the Q-Day timeline—presents it as more certain than expert consensus suggests",
+            "Abrupt transition between sections creates choppy flow; lacks smooth connective tissue",
+            "The final sentence about quantum computing's benefits feels tacked on and underdeveloped",
+            "No discussion of hybrid cryptographic approaches or transition strategies beyond generic advice",
+            "Limited exploration of geopolitical implications or international coordination efforts"
+          ],
+          "suggestions": [
+            "Add a brief, accessible explanation of why current encryption is vulnerable (e.g., 'RSA relies on the difficulty of factoring large numbers—a task quantum computers excel at')",
+            "Expand the 'harvest now, decrypt later' section with a concrete scenario: explain that adversaries capture encrypted data today knowing they can decrypt it once quantum computers mature",
+            "Name the specific NIST-approved algorithms and briefly characterize them (e.g., 'CRYSTALS-Kyber for key exchange, CRYSTALS-Dilithium for digital signatures')",
+            "Add nuance to the timeline: acknowledge range of expert opinions and variables affecting Q-Day arrival",
+            "Improve transitions between paragraphs—consider reorganizing into clearer sections: The Threat, The Solution, The Challenge, The Action Plan",
+            "Either develop the quantum computing benefits angle into a proper concluding paragraph or remove it—it currently feels disconnected",
+            "Include a concrete example of implementation challenges with numbers (migration costs, performance impacts)",
+            "Add 1-2 sentences on what individual consumers should know or do, not just organizations",
+            "Consider adding a sidebar or callout box explaining key terms like 'lattice-based cryptography' for lay readers",
+            "Strengthen the call-to-action with more specific first steps for different audience segments"
+          ]
+        }
+      },
+      "output": {
+        "title": "The Quantum Threat: Racing to Secure Tomorrow's Data Today",
+        "content": "**The Threat**\n\nQuantum computing threatens modern encryption fundamentally. RSA security relies on factoring large numbers—impossible for classical computers but achievable for quantum machines using Shor's algorithm. Malicious actors already exploit this through \"harvest now, decrypt later\" attacks: intercepting encrypted medical records or financial data today, storing them, then decrypting once quantum computers mature—exposing secrets retroactively.\n\n**The Solution**\n\nNIST standardized post-quantum algorithms in August 2024, including CRYSTALS-Kyber for key exchange and CRYSTALS-Dilithium for digital signatures. These lattice-based schemes resist quantum attacks by using mathematical structures quantum algorithms cannot efficiently solve.\n\n**The Challenge**\n\n\"We estimate 10-15 years until Q-Day,\" says Dr. Michele Mosca, though experts debate this timeline given technological uncertainties. JPMorgan Chase reports migration costs exceeding $100 million, with performance impacts of 20-40% in pilot programs.\n\n**Action Plan**\n\nOrganizations must inventory vulnerable systems and pilot hybrid cryptographic approaches combining current and post-quantum standards. Consumers should enable automatic security updates and prefer services advertising quantum-resistant encryption. High-risk sectors—healthcare, finance, government—require immediate transition before Q-Day renders protection obsolete.",
+        "wordCount": 100,
+        "qualityScore": 0.88
+      },
+      "startedAt": "2026-08-03T09:24:23.766Z",
+      "finishedAt": "2026-08-03T09:24:32.023Z"
+    }
+  ],
+  "finalArticle": {
+    "title": "The Quantum Threat: Racing to Secure Tomorrow's Data Today",
+    "content": "**The Threat**\n\nQuantum computing threatens modern encryption fundamentally. RSA security relies on factoring large numbers—impossible for classical computers but achievable for quantum machines using Shor's algorithm. Malicious actors already exploit this through \"harvest now, decrypt later\" attacks: intercepting encrypted medical records or financial data today, storing them, then decrypting once quantum computers mature—exposing secrets retroactively.\n\n**The Solution**\n\nNIST standardized post-quantum algorithms in August 2024, including CRYSTALS-Kyber for key exchange and CRYSTALS-Dilithium for digital signatures. These lattice-based schemes resist quantum attacks by using mathematical structures quantum algorithms cannot efficiently solve.\n\n**The Challenge**\n\n\"We estimate 10-15 years until Q-Day,\" says Dr. Michele Mosca, though experts debate this timeline given technological uncertainties. JPMorgan Chase reports migration costs exceeding $100 million, with performance impacts of 20-40% in pilot programs.\n\n**Action Plan**\n\nOrganizations must inventory vulnerable systems and pilot hybrid cryptographic approaches combining current and post-quantum standards. Consumers should enable automatic security updates and prefer services advertising quantum-resistant encryption. High-risk sectors—healthcare, finance, government—require immediate transition before Q-Day renders protection obsolete.",
+    "wordCount": 100,
+    "qualityScore": 0.88
+  }
+}

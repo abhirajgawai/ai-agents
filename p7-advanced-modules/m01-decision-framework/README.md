@@ -1,6 +1,6 @@
 # M1 - Automation Decision Framework
 
-Status: **Not started**
+Status: **Complete** — see `HANDOFF.md`
 
 Full curriculum source:
 `../../AI-Engineering-Advanced-Mastery-Plan.md`

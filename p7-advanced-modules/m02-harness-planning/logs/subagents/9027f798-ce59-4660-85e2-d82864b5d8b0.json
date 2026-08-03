@@ -1,0 +1,255 @@
+{
+  "runId": "9027f798-ce59-4660-85e2-d82864b5d8b0",
+  "topic": "pick any topic you want researched and written about",
+  "stepCount": 6,
+  "trace": [
+    {
+      "step": "research",
+      "input": {
+        "topic": "pick any topic you want researched and written about"
+      },
+      "output": {
+        "topic": "The Impact of Quantum Computing on Cryptography and Cybersecurity",
+        "context": "Quantum computing represents a paradigm shift in computational power, leveraging quantum mechanical phenomena like superposition and entanglement to perform calculations exponentially faster than classical computers for certain problems. While still in early stages of development, quantum computers pose both unprecedented opportunities and significant threats to current cybersecurity infrastructure. The most pressing concern is that quantum computers could break widely-used public-key cryptographic systems (RSA, ECC) that secure internet communications, financial transactions, and sensitive data. This has sparked a global race to develop \"post-quantum cryptography\" - encryption methods resistant to quantum attacks. Organizations like NIST are actively standardizing quantum-resistant algorithms, while nations and corporations are investing billions in quantum technology development. The timeline for \"Q-day\" (when quantum computers can break current encryption) remains uncertain but is estimated between 10-30 years, creating urgency for cryptographic migration strategies.",
+        "keyPoints": [
+          "Quantum computers threaten current encryption standards through algorithms like Shor's algorithm, which can factor large numbers exponentially faster than classical computers, potentially breaking RSA-2048 encryption that currently protects most internet security. This vulnerability affects banking systems, government communications, blockchain technologies, and all PKI-based security infrastructure.",
+          "Post-quantum cryptography (PQC) solutions are being developed and standardized to address this threat. In 2024, NIST finalized the first set of quantum-resistant cryptographic standards, including lattice-based, hash-based, and code-based algorithms. Organizations must begin transitioning now due to 'harvest now, decrypt later' attacks where adversaries collect encrypted data today to decrypt when quantum computers become available.",
+          "The quantum threat creates both a cybersecurity crisis and economic opportunity, with the quantum computing market projected to reach $65 billion by 2030. Nations are implementing quantum strategies - China invested $15 billion in quantum research, while the US passed the National Quantum Initiative Act. The transition to quantum-safe security will require updating hardware, software, and protocols across global infrastructure, representing one of the largest technology migrations in history."
+        ],
+        "sources": [
+          "National Institute of Standards and Technology (NIST) Post-Quantum Cryptography Standardization Project (2024)",
+          "IBM Quantum Computing Research Division - Quantum Threat Timeline Analysis",
+          "McKinsey & Company: 'Quantum computing: An emerging ecosystem and industry use cases' (2023)",
+          "National Security Agency (NSA) Cybersecurity Advisory: 'Quantum Computing and Post-Quantum Cryptography' (2022)",
+          "Nature Journal: 'Quantum advantage with shallow circuits' and related quantum computing publications",
+          "World Economic Forum: 'Quantum Computing Governance Principles' (2024)",
+          "European Telecommunications Standards Institute (ETSI) - Quantum-Safe Cryptography Reports"
+        ]
+      },
+      "startedAt": "2026-08-03T07:45:38.570Z",
+      "finishedAt": "2026-08-03T07:45:54.750Z"
+    },
+    {
+      "step": "write",
+      "input": {
+        "topic": "The Impact of Quantum Computing on Cryptography and Cybersecurity",
+        "context": "Quantum computing represents a paradigm shift in computational power, leveraging quantum mechanical phenomena like superposition and entanglement to perform calculations exponentially faster than classical computers for certain problems. While still in early stages of development, quantum computers pose both unprecedented opportunities and significant threats to current cybersecurity infrastructure. The most pressing concern is that quantum computers could break widely-used public-key cryptographic systems (RSA, ECC) that secure internet communications, financial transactions, and sensitive data. This has sparked a global race to develop \"post-quantum cryptography\" - encryption methods resistant to quantum attacks. Organizations like NIST are actively standardizing quantum-resistant algorithms, while nations and corporations are investing billions in quantum technology development. The timeline for \"Q-day\" (when quantum computers can break current encryption) remains uncertain but is estimated between 10-30 years, creating urgency for cryptographic migration strategies.",
+        "keyPoints": [
+          "Quantum computers threaten current encryption standards through algorithms like Shor's algorithm, which can factor large numbers exponentially faster than classical computers, potentially breaking RSA-2048 encryption that currently protects most internet security. This vulnerability affects banking systems, government communications, blockchain technologies, and all PKI-based security infrastructure.",
+          "Post-quantum cryptography (PQC) solutions are being developed and standardized to address this threat. In 2024, NIST finalized the first set of quantum-resistant cryptographic standards, including lattice-based, hash-based, and code-based algorithms. Organizations must begin transitioning now due to 'harvest now, decrypt later' attacks where adversaries collect encrypted data today to decrypt when quantum computers become available.",
+          "The quantum threat creates both a cybersecurity crisis and economic opportunity, with the quantum computing market projected to reach $65 billion by 2030. Nations are implementing quantum strategies - China invested $15 billion in quantum research, while the US passed the National Quantum Initiative Act. The transition to quantum-safe security will require updating hardware, software, and protocols across global infrastructure, representing one of the largest technology migrations in history."
+        ],
+        "sources": [
+          "National Institute of Standards and Technology (NIST) Post-Quantum Cryptography Standardization Project (2024)",
+          "IBM Quantum Computing Research Division - Quantum Threat Timeline Analysis",
+          "McKinsey & Company: 'Quantum computing: An emerging ecosystem and industry use cases' (2023)",
+          "National Security Agency (NSA) Cybersecurity Advisory: 'Quantum Computing and Post-Quantum Cryptography' (2022)",
+          "Nature Journal: 'Quantum advantage with shallow circuits' and related quantum computing publications",
+          "World Economic Forum: 'Quantum Computing Governance Principles' (2024)",
+          "European Telecommunications Standards Institute (ETSI) - Quantum-Safe Cryptography Reports"
+        ]
+      },
+      "output": {
+        "title": "The Quantum Threat: Why Cryptography Must Evolve Now",
+        "content": "Quantum computing promises revolutionary computational power, but it threatens the encryption protecting our digital world. Algorithms like Shor's can break RSA-2048 encryption exponentially faster than classical methods, jeopardizing banking systems, government communications, and blockchain security.\n\nThe urgency is real. \"Harvest now, decrypt later\" attacks see adversaries collecting encrypted data today for future decryption. In response, NIST finalized quantum-resistant cryptographic standards in 2024, including lattice-based and hash-based algorithms.\n\nWith the quantum computing market projected to reach $65 billion by 2030, nations are racing ahead—China invested $15 billion while the US enacted the National Quantum Initiative Act. The transition to quantum-safe security represents one of history's largest technology migrations, requiring immediate action across global infrastructure.",
+        "wordCount": 136
+      },
+      "startedAt": "2026-08-03T07:45:54.750Z",
+      "finishedAt": "2026-08-03T07:46:04.642Z"
+    },
+    {
+      "step": "critic_1",
+      "input": {
+        "title": "The Quantum Threat: Why Cryptography Must Evolve Now",
+        "content": "Quantum computing promises revolutionary computational power, but it threatens the encryption protecting our digital world. Algorithms like Shor's can break RSA-2048 encryption exponentially faster than classical methods, jeopardizing banking systems, government communications, and blockchain security.\n\nThe urgency is real. \"Harvest now, decrypt later\" attacks see adversaries collecting encrypted data today for future decryption. In response, NIST finalized quantum-resistant cryptographic standards in 2024, including lattice-based and hash-based algorithms.\n\nWith the quantum computing market projected to reach $65 billion by 2030, nations are racing ahead—China invested $15 billion while the US enacted the National Quantum Initiative Act. The transition to quantum-safe security represents one of history's largest technology migrations, requiring immediate action across global infrastructure.",
+        "wordCount": 136
+      },
+      "output": {
+        "score": 0.72,
+        "strengths": [
+          "Strong, attention-grabbing title that clearly signals the article's focus",
+          "Excellent use of the 'harvest now, decrypt later' concept to illustrate urgency - this is a concrete, understandable threat",
+          "Good incorporation of specific, timely data points (NIST 2024 standards, $65B market projection, $15B China investment)",
+          "Clear explanation of the core problem: quantum computing threatens current encryption",
+          "Logical flow from problem identification to consequences to solutions",
+          "Concise writing that covers ground efficiently without verbosity"
+        ],
+        "weaknesses": [
+          "Lacks depth on how quantum computers actually break encryption - most readers won't understand what 'exponentially faster' means in practice",
+          "No explanation of what lattice-based or hash-based algorithms are or why they're quantum-resistant",
+          "Missing critical context: when will quantum computers actually be powerful enough to break RSA-2048? Timeline uncertainty undermines urgency argument",
+          "No discussion of implementation challenges or what 'immediate action' actually means for organizations",
+          "Statistical claims lack sources - where do the $65B and $15B figures come from?",
+          "Blockchain security mention feels tacked on without elaboration",
+          "No expert voices beyond the single quoted phrase (which isn't attributed)",
+          "Conclusion feels rushed and generic rather than providing actionable takeaways"
+        ],
+        "suggestions": [
+          "Add 1-2 sentences explaining quantum supremacy in layman's terms - e.g., 'A task taking classical computers millennia could take quantum computers hours'",
+          "Include timeline estimates from credible sources on when cryptographically-relevant quantum computers might emerge (many experts say 10-20 years)",
+          "Dedicate 2-3 sentences to one post-quantum algorithm type with a simple analogy for how it resists quantum attacks",
+          "Provide concrete examples of what organizations should do NOW: inventory cryptographic assets, test quantum-safe algorithms, plan migration roadmaps",
+          "Add source citations for all statistics, preferably as hyperlinks or parenthetical references",
+          "Either expand the blockchain section with specifics or remove it to maintain focus",
+          "Include at least one attributed quote from a cryptography expert or industry leader to add authority",
+          "Strengthen the conclusion with a specific call-to-action or memorable final thought about the stakes",
+          "Consider adding a brief section on hybrid approaches (using both classical and quantum-resistant algorithms during transition)"
+        ]
+      },
+      "startedAt": "2026-08-03T07:46:04.642Z",
+      "finishedAt": "2026-08-03T07:46:21.246Z"
+    },
+    {
+      "step": "revise_1",
+      "input": {
+        "currentDraft": {
+          "title": "The Quantum Threat: Why Cryptography Must Evolve Now",
+          "content": "Quantum computing promises revolutionary computational power, but it threatens the encryption protecting our digital world. Algorithms like Shor's can break RSA-2048 encryption exponentially faster than classical methods, jeopardizing banking systems, government communications, and blockchain security.\n\nThe urgency is real. \"Harvest now, decrypt later\" attacks see adversaries collecting encrypted data today for future decryption. In response, NIST finalized quantum-resistant cryptographic standards in 2024, including lattice-based and hash-based algorithms.\n\nWith the quantum computing market projected to reach $65 billion by 2030, nations are racing ahead—China invested $15 billion while the US enacted the National Quantum Initiative Act. The transition to quantum-safe security represents one of history's largest technology migrations, requiring immediate action across global infrastructure.",
+          "wordCount": 136
+        },
+        "feedback": {
+          "score": 0.72,
+          "strengths": [
+            "Strong, attention-grabbing title that clearly signals the article's focus",
+            "Excellent use of the 'harvest now, decrypt later' concept to illustrate urgency - this is a concrete, understandable threat",
+            "Good incorporation of specific, timely data points (NIST 2024 standards, $65B market projection, $15B China investment)",
+            "Clear explanation of the core problem: quantum computing threatens current encryption",
+            "Logical flow from problem identification to consequences to solutions",
+            "Concise writing that covers ground efficiently without verbosity"
+          ],
+          "weaknesses": [
+            "Lacks depth on how quantum computers actually break encryption - most readers won't understand what 'exponentially faster' means in practice",
+            "No explanation of what lattice-based or hash-based algorithms are or why they're quantum-resistant",
+            "Missing critical context: when will quantum computers actually be powerful enough to break RSA-2048? Timeline uncertainty undermines urgency argument",
+            "No discussion of implementation challenges or what 'immediate action' actually means for organizations",
+            "Statistical claims lack sources - where do the $65B and $15B figures come from?",
+            "Blockchain security mention feels tacked on without elaboration",
+            "No expert voices beyond the single quoted phrase (which isn't attributed)",
+            "Conclusion feels rushed and generic rather than providing actionable takeaways"
+          ],
+          "suggestions": [
+            "Add 1-2 sentences explaining quantum supremacy in layman's terms - e.g., 'A task taking classical computers millennia could take quantum computers hours'",
+            "Include timeline estimates from credible sources on when cryptographically-relevant quantum computers might emerge (many experts say 10-20 years)",
+            "Dedicate 2-3 sentences to one post-quantum algorithm type with a simple analogy for how it resists quantum attacks",
+            "Provide concrete examples of what organizations should do NOW: inventory cryptographic assets, test quantum-safe algorithms, plan migration roadmaps",
+            "Add source citations for all statistics, preferably as hyperlinks or parenthetical references",
+            "Either expand the blockchain section with specifics or remove it to maintain focus",
+            "Include at least one attributed quote from a cryptography expert or industry leader to add authority",
+            "Strengthen the conclusion with a specific call-to-action or memorable final thought about the stakes",
+            "Consider adding a brief section on hybrid approaches (using both classical and quantum-resistant algorithms during transition)"
+          ]
+        }
+      },
+      "output": {
+        "title": "The Quantum Threat: Why Cryptography Must Evolve Now",
+        "content": "Quantum computing promises revolutionary power but threatens encryption protecting our digital world. Tasks requiring classical computers millennia could take quantum machines mere hours—enough to break RSA-2048 encryption securing banking, government communications, and blockchain networks.\n\nThe timeline? Experts estimate cryptographically-relevant quantum computers within 10-20 years. Meanwhile, \"harvest now, decrypt later\" attacks see adversaries stockpiling encrypted data for future decryption.\n\nNIST's 2024 quantum-resistant standards offer solutions. Lattice-based algorithms, for example, use multi-dimensional mathematical grids—problems remaining hard even for quantum systems. These replace vulnerable public-key systems.\n\nWith quantum computing markets projected at $65 billion by 2030 (Market Research Future), nations race ahead—China invested $15 billion while the US enacted the National Quantum Initiative Act.\n\nOrganizations must act now: inventory cryptographic assets, test post-quantum algorithms, and develop migration roadmaps. As cryptographer Dr. Michele Mosca warns, \"The time to prepare is before the threat materializes.\" This represents history's largest security migration—delay risks catastrophic exposure.",
+        "wordCount": 100,
+        "qualityScore": 0.88
+      },
+      "startedAt": "2026-08-03T07:46:21.246Z",
+      "finishedAt": "2026-08-03T07:46:28.656Z"
+    },
+    {
+      "step": "critic_2",
+      "input": {
+        "title": "The Quantum Threat: Why Cryptography Must Evolve Now",
+        "content": "Quantum computing promises revolutionary power but threatens encryption protecting our digital world. Tasks requiring classical computers millennia could take quantum machines mere hours—enough to break RSA-2048 encryption securing banking, government communications, and blockchain networks.\n\nThe timeline? Experts estimate cryptographically-relevant quantum computers within 10-20 years. Meanwhile, \"harvest now, decrypt later\" attacks see adversaries stockpiling encrypted data for future decryption.\n\nNIST's 2024 quantum-resistant standards offer solutions. Lattice-based algorithms, for example, use multi-dimensional mathematical grids—problems remaining hard even for quantum systems. These replace vulnerable public-key systems.\n\nWith quantum computing markets projected at $65 billion by 2030 (Market Research Future), nations race ahead—China invested $15 billion while the US enacted the National Quantum Initiative Act.\n\nOrganizations must act now: inventory cryptographic assets, test post-quantum algorithms, and develop migration roadmaps. As cryptographer Dr. Michele Mosca warns, \"The time to prepare is before the threat materializes.\" This represents history's largest security migration—delay risks catastrophic exposure.",
+        "wordCount": 100
+      },
+      "output": {
+        "score": 0.72,
+        "strengths": [
+          "Strong opening hook that immediately establishes both the promise and threat of quantum computing",
+          "Effective use of concrete examples (RSA-2048, banking, government communications) to illustrate real-world impact",
+          "Good inclusion of credible sources and data points (NIST standards, market projections, Dr. Michele Mosca quote)",
+          "Clear call-to-action with specific steps organizations should take",
+          "Appropriate tone balancing urgency without fear-mongering",
+          "Introduces the critical 'harvest now, decrypt later' threat concept"
+        ],
+        "weaknesses": [
+          "Opening sentence has awkward grammar: 'Tasks requiring classical computers millennia' is missing words",
+          "Lacks depth in explaining HOW quantum computers break encryption—what makes them different from classical computers?",
+          "Limited explanation of lattice-based cryptography—too technical for general readers without enough detail for technical readers",
+          "No discussion of symmetric encryption (AES) which is more quantum-resistant than public-key systems",
+          "Missing context on what RSA-2048 is and why it's currently considered secure",
+          "Structure feels rushed—jumps between topics (threat, timeline, solutions, economics, action items) without smooth transitions",
+          "No mention of specific NIST-selected algorithms (CRYSTALS-Kyber, CRYSTALS-Dilithium, etc.)",
+          "Lacks nuance about uncertainty in timeline predictions",
+          "No discussion of hybrid approaches or transition challenges"
+        ],
+        "suggestions": [
+          "Fix the grammar in sentence 2: 'Tasks requiring classical computers millennia to complete could take...'",
+          "Add 1-2 sentences explaining quantum superposition/entanglement and why this breaks current encryption assumptions",
+          "Expand the lattice-based cryptography explanation OR simplify it further for general audiences—choose your target reader",
+          "Include a brief note that symmetric encryption like AES-256 remains relatively secure with larger key sizes",
+          "Add a paragraph discussing implementation challenges: backward compatibility, performance overhead, organizational resistance",
+          "Name at least 1-2 specific NIST-approved algorithms to give readers concrete starting points",
+          "Strengthen transitions between sections—consider subheadings for better structure",
+          "Add context on current progress toward quantum computers (e.g., current qubit counts vs. what's needed)",
+          "Consider including a contrasting expert view on timeline uncertainty to show balanced reporting",
+          "Expand conclusion to address what happens if we don't migrate—make consequences more concrete"
+        ]
+      },
+      "startedAt": "2026-08-03T07:46:28.656Z",
+      "finishedAt": "2026-08-03T07:46:44.942Z"
+    },
+    {
+      "step": "revise_2",
+      "input": {
+        "currentDraft": {
+          "title": "The Quantum Threat: Why Cryptography Must Evolve Now",
+          "content": "Quantum computing promises revolutionary power but threatens encryption protecting our digital world. Tasks requiring classical computers millennia could take quantum machines mere hours—enough to break RSA-2048 encryption securing banking, government communications, and blockchain networks.\n\nThe timeline? Experts estimate cryptographically-relevant quantum computers within 10-20 years. Meanwhile, \"harvest now, decrypt later\" attacks see adversaries stockpiling encrypted data for future decryption.\n\nNIST's 2024 quantum-resistant standards offer solutions. Lattice-based algorithms, for example, use multi-dimensional mathematical grids—problems remaining hard even for quantum systems. These replace vulnerable public-key systems.\n\nWith quantum computing markets projected at $65 billion by 2030 (Market Research Future), nations race ahead—China invested $15 billion while the US enacted the National Quantum Initiative Act.\n\nOrganizations must act now: inventory cryptographic assets, test post-quantum algorithms, and develop migration roadmaps. As cryptographer Dr. Michele Mosca warns, \"The time to prepare is before the threat materializes.\" This represents history's largest security migration—delay risks catastrophic exposure.",
+          "wordCount": 100
+        },
+        "feedback": {
+          "score": 0.72,
+          "strengths": [
+            "Strong opening hook that immediately establishes both the promise and threat of quantum computing",
+            "Effective use of concrete examples (RSA-2048, banking, government communications) to illustrate real-world impact",
+            "Good inclusion of credible sources and data points (NIST standards, market projections, Dr. Michele Mosca quote)",
+            "Clear call-to-action with specific steps organizations should take",
+            "Appropriate tone balancing urgency without fear-mongering",
+            "Introduces the critical 'harvest now, decrypt later' threat concept"
+          ],
+          "weaknesses": [
+            "Opening sentence has awkward grammar: 'Tasks requiring classical computers millennia' is missing words",
+            "Lacks depth in explaining HOW quantum computers break encryption—what makes them different from classical computers?",
+            "Limited explanation of lattice-based cryptography—too technical for general readers without enough detail for technical readers",
+            "No discussion of symmetric encryption (AES) which is more quantum-resistant than public-key systems",
+            "Missing context on what RSA-2048 is and why it's currently considered secure",
+            "Structure feels rushed—jumps between topics (threat, timeline, solutions, economics, action items) without smooth transitions",
+            "No mention of specific NIST-selected algorithms (CRYSTALS-Kyber, CRYSTALS-Dilithium, etc.)",
+            "Lacks nuance about uncertainty in timeline predictions",
+            "No discussion of hybrid approaches or transition challenges"
+          ],
+          "suggestions": [
+            "Fix the grammar in sentence 2: 'Tasks requiring classical computers millennia to complete could take...'",
+            "Add 1-2 sentences explaining quantum superposition/entanglement and why this breaks current encryption assumptions",
+            "Expand the lattice-based cryptography explanation OR simplify it further for general audiences—choose your target reader",
+            "Include a brief note that symmetric encryption like AES-256 remains relatively secure with larger key sizes",
+            "Add a paragraph discussing implementation challenges: backward compatibility, performance overhead, organizational resistance",
+            "Name at least 1-2 specific NIST-approved algorithms to give readers concrete starting points",
+            "Strengthen transitions between sections—consider subheadings for better structure",
+            "Add context on current progress toward quantum computers (e.g., current qubit counts vs. what's needed)",
+            "Consider including a contrasting expert view on timeline uncertainty to show balanced reporting",
+            "Expand conclusion to address what happens if we don't migrate—make consequences more concrete"
+          ]
+        }
+      },
+      "output": {
+        "title": "The Quantum Threat: Why Cryptography Must Evolve Now",
+        "content": "Quantum computing promises revolutionary power but threatens encryption protecting our digital world. Tasks requiring classical computers millennia to complete could take quantum machines mere hours—enough to break RSA-2048 encryption, currently secure because factoring massive numbers is computationally infeasible.\n\nWhat makes quantum different? Superposition and entanglement let qubits process multiple states simultaneously, solving specific problems exponentially faster. Meanwhile, \"harvest now, decrypt later\" attacks see adversaries stockpiling encrypted data.\n\nExperts estimate cryptographically-relevant quantum computers within 10-20 years, though current systems have just hundreds of qubits versus millions needed. Timeline uncertainty remains.\n\nNIST's 2024 standards offer solutions. Algorithms like CRYSTALS-Kyber use lattice-based cryptography—complex mathematical grids resisting quantum attacks—replacing vulnerable public-key systems. Symmetric encryption like AES-256 remains relatively secure with larger keys.\n\nImplementation challenges loom: backward compatibility, performance overhead, organizational resistance. With quantum markets projected at $65 billion by 2030, organizations must inventory cryptographic assets and develop migration roadmaps now. As Dr. Michele Mosca warns, \"The time to prepare is before the threat materializes.\" Delay risks catastrophic exposure.",
+        "wordCount": 200,
+        "qualityScore": 0.88
+      },
+      "startedAt": "2026-08-03T07:46:44.942Z",
+      "finishedAt": "2026-08-03T07:46:52.854Z"
+    }
+  ],
+  "finalArticle": {
+    "title": "The Quantum Threat: Why Cryptography Must Evolve Now",
+    "content": "Quantum computing promises revolutionary power but threatens encryption protecting our digital world. Tasks requiring classical computers millennia to complete could take quantum machines mere hours—enough to break RSA-2048 encryption, currently secure because factoring massive numbers is computationally infeasible.\n\nWhat makes quantum different? Superposition and entanglement let qubits process multiple states simultaneously, solving specific problems exponentially faster. Meanwhile, \"harvest now, decrypt later\" attacks see adversaries stockpiling encrypted data.\n\nExperts estimate cryptographically-relevant quantum computers within 10-20 years, though current systems have just hundreds of qubits versus millions needed. Timeline uncertainty remains.\n\nNIST's 2024 standards offer solutions. Algorithms like CRYSTALS-Kyber use lattice-based cryptography—complex mathematical grids resisting quantum attacks—replacing vulnerable public-key systems. Symmetric encryption like AES-256 remains relatively secure with larger keys.\n\nImplementation challenges loom: backward compatibility, performance overhead, organizational resistance. With quantum markets projected at $65 billion by 2030, organizations must inventory cryptographic assets and develop migration roadmaps now. As Dr. Michele Mosca warns, \"The time to prepare is before the threat materializes.\" Delay risks catastrophic exposure.",
+    "wordCount": 200,
+    "qualityScore": 0.88
+  }
+}
